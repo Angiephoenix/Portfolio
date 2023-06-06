@@ -358,11 +358,13 @@ section .title::after{
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
+    height: 300px;
     overflow: hidden;
     transition: all 0.3s ease;
 }
 .projects .carousel .card:hover{
     background: #c1502e;
+    height: auto;
 }
 .projects.carousel .card .box{
     display: flex;
@@ -417,6 +419,10 @@ section .title::after{
 #carousel .card .box p{
     color: #fff;
     font-family: "Kumbh Sans"
+}
+
+#carousel .card .box a{
+    color: #fff;
 }
 
 .owl-dots{

@@ -704,4 +704,11 @@ footer span a:hover{
       margin-left: 0; /* Remove left margin to center cards on smaller screens */
     }
   }
+  @media screen and (max-width: 768px) {
+    #social-media {
+      width: 100%; /* Set a fixed width */
+      white-space: nowrap; /* Prevent icons from wrapping to the next line */
+    }
+  }
+  
   

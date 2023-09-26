@@ -223,7 +223,8 @@ section .title::after{
     border-radius: 50%;
     font-size: 2rem;
     color: var(--main-color);
-    margin: 3rem 1.5rem 3rem 0;
+    /* margin: 3rem 1.5rem 3rem 0; */
+    margin: 1.5rem 0;
     transition: .5s ease;
  }
 
@@ -705,10 +706,13 @@ footer span a:hover{
     }
   }
   @media screen and (max-width: 768px) {
-    #social-media {
-      width: 100%; /* Set a fixed width */
-      white-space: nowrap; /* Prevent icons from wrapping to the next line */
+    .social-media a {
+      display: inline-block; /* Ensure icons stay on the same line */
+      margin-right: 1rem; /* Adjust the margin between icons as needed */
     }
   }
+  
+  
+  
   
   

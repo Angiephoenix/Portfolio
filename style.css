@@ -580,12 +580,14 @@ footer span a:hover{
 
 /* responsive media query start */
 @media (max-width: 1104px) {
-    .about .about-content .left img{
-        height: 350px;
-        width: 350px;
+    .home {
+        height: auto; 
+    }
+    .home-mobile {
+        background-size: 100% 100%;
+        min-height: 100vh;
     }
 }
-
 @media (max-width: 991px) {
     .max-width{
         padding: 0 50px;

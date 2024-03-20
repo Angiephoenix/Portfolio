@@ -714,12 +714,41 @@ footer span a:hover{
       margin-left: 0; /* Removed left margin to center cards on smaller screens */
     }
   }
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .social-media a {
       display: inline-block; 
       margin-right: 1rem; 
     }
   }
+  @media screen and (max-width: 768px) {
+    #expertise #max-width #serv-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+    .expertise .serv-content .mobile{
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .max-width {
+        width: calc(100% - 80px); 
+        max-width: 100%; 
+        margin: 0 auto; 
+        padding: 0; 
+    }
+
+    .about-me-section {
+        word-spacing: normal; 
+    }
+}
+
+
+
+
   
   
   
